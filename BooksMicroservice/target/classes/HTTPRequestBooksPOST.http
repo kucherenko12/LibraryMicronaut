@@ -1,0 +1,43 @@
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "name":"Programming","author":"Bill Gates","year":"1998"
+}
+
+
+###
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "name":"History of Microsoft","author":"Bill Gates","year":"1999"
+}
+
+
+###
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "name":"Windows 7 in details","author":"Bill Gates","year":"2000"
+}
+
+
+###
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "name":"How Facebook was coded","author":"Mark Zuckerberg","year":"1998"
+}
+
+
+###
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "name":"How to invest","author":"Mark Zuckerberg","year":"2012"
+}
+

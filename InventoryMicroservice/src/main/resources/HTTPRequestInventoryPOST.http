@@ -1,0 +1,44 @@
+POST http://localhost:8080/inventory
+Content-Type: application/json
+
+{
+    "bookId":"1","quantity":"1"
+}
+
+
+###
+POST http://localhost:8080/inventory
+Content-Type: application/json
+
+{
+    "bookId":"2","quantity":"10"
+}
+
+
+###
+POST http://localhost:8080/inventory
+Content-Type: application/json
+
+{
+    "bookId":"1","quantity":"4"
+}
+
+
+###
+POST http://localhost:8080/inventory
+Content-Type: application/json
+
+{
+    "bookId":"4","quantity":"25"
+}
+
+
+###
+POST http://localhost:8080/inventory
+Content-Type: application/json
+
+{
+    "bookId":"5","quantity":"0"
+}
+
+
